@@ -18,7 +18,7 @@ from openapi.registry import lookup, REGISTRY
 
 
 # load the schema
-with open(join(dirname(__file__), "schemas/v2.0/schema.json")) as fileobj:
+with open(join(dirname(__file__), "schemas/v3.0/schema.json")) as fileobj:
     SCHEMA = load(fileobj)
 
 

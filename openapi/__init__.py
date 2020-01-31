@@ -1,28 +1,28 @@
 """
 Public API.
 """
-from openapi.model import Swagger
+from openapi.model import OpenAPI
 
 
 def load(fileobj):
     """
-    Load swagger model objects (from json).
+    Load OpenAPI model objects (from json).
 
     """
-    return Swagger.load(fileobj)
+    return OpenAPI.load(fileobj)
 
 
 def loads(s):
     """
-    Load swagger model objects (from json).
+    Load OpenAPI model objects (from json).
 
     """
-    return Swagger.loads(s)
+    return OpenAPI.loads(s)
 
 
 def dump(obj, fileobj):
     """
-    Dump swagger model objects (to json).
+    Dump OpenAPI model objects (to json).
 
     """
     return obj.dump(fileobj)
@@ -30,7 +30,7 @@ def dump(obj, fileobj):
 
 def dumps(obj):
     """
-    Dump swagger model objects (to json).
+    Dump OpenAPI model objects (to json).
 
     """
     return obj.dumps()

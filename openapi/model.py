@@ -26,7 +26,7 @@ def make_definition(name, base, schema):
 
 
 # generate top-level type
-Swagger = make("Swagger", SchemaAwareDict, SCHEMA)
+OpenAPI = make("OpenAPI", SchemaAwareDict, SCHEMA)
 
 
 # generate types for definitions
